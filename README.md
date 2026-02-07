@@ -1,10 +1,43 @@
-<h1 align="center">🛒🛍️ E-commerce Mini Store</h1>
-</br>
-<div align="center"> <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm11OHEzeHZueHZscjBjc3Fia3o0YWcxdGV2Nzl5ZWU4YWUzY2JuNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hu475i12tHBg94FIeD/giphy.gif" alt="Shopping GIF" width="300" height="300"></div>
-</br>
-<div align="center"> <i> Secure shopping, smooth coding.</i> </div>
+## 🛒 E-Commerce Mini Store – Microservices Backend
 
----
+This project is a backend microservices application for an online shopping platform built using Java and Spring Boot.  
+The system demonstrates real-world distributed architecture used in enterprise applications.
+
+### Key Features
+- Product Catalog Management
+- Order Creation & Processing
+- RESTful APIs for frontend integration
+- Microservices communication
+- Centralized API Gateway routing
+- Service Discovery between services
+- In-memory H2 database for quick setup
+- Layered architecture (Controller → Service → Repository)
+
+### Architecture
+The application follows a **Microservices Architecture**:
+
+Client → API Gateway → Services → Database
+
+Modules:
+- **API Gateway** – Routes external requests
+- **Service Discovery** – Registers all services
+- **E-commerce Service** – Handles products and orders
+
+### Tech Stack
+- Java 8+
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- H2 Database
+- Maven
+- REST APIs
+
+### Why this project?
+This project simulates how real enterprise applications are built using distributed systems, service communication, and modular backend development.
+
+This project simulates how real enterprise applications are built using distributed systems, service communication, and modular backend development.
+
 
 ## ✨ Overview
 
